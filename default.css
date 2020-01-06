@@ -1,5 +1,5 @@
 .container{
-    text-align:center;
+    text-align:center;s
 
 }
 
@@ -8,6 +8,11 @@ h2{
     padding:15px;
 
 }
-.row{
-    background-color: rgb(216, 120, 216);
+
+.bg-mauve {
+    background-color: #e787e7;
+  }
+
+p{
+    background:silver;
 }

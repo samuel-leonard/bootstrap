@@ -11,7 +11,7 @@
 <body>
     <h2>exercice 1: positionnement des blocs</h2>
 
-    <div class="container border border-dark rounded">
+    <div class="container border border-dark rounded bg-mauve">
         <div class="row justify-content-md-center">
             <div class="col-justify-content-md-center py-2">12 colonnes</div>
         </div>
@@ -25,32 +25,103 @@
 
     <h2>exercice 2: éléments imbriqués</h2>
 
-    <div class="main container border border-dark rounded">
+    <div class="container text-center">
         <div class="row">
-            <div class="col-md-4 py-2 border border-dark h-25 d-inline-block">nouvel</div>
-            <div class="col-md-8  border border-dark">
-                <div class="col-md-12 py-2"><b>exercice</b></div>
-                    <div class="row">
-                        <div class="col-md-3 py-2 border border-dark">cess</div>
-                        <div class="col-md-6 py-2 border border-dark">blocs sont tous</div>
-                        <div class="col-md-3 py-2 border border-dark">dans</div>
+            <div class="col-md-4" >
+                <div class="row border border-dark rounded bg-mauve">
+                        <div class="col">Nouvel</div>
+                </div>
+            </div>
+            <div class="col-md-8 border border-dark rounded bg-mauve">Exercice
+                <div class="row">
+                    <div class="col-3 border border-dark rounded">Ces</div>
+                    <div class="col-6 border border-dark rounded">blocs sont tous</div>
+                    <div class="col-3 border border-dark rounded">dans</div>
                     </div>
-
+                <div class="row">
+                    <div class="col-4 border border-dark rounded">la même</div>
+                    <div class="col-4 border border-dark rounded">div où est</div>
+                    <div class="col-4 border border-dark rounded">inscrit <strong>"Exercice"</strong>.</div> 
+                </div>
                     <div class="row">
-                        <div class="col-md-4 py-2 border border-dark">la même</div>
-                        <div class="col-md-4 py-2 border border-dark">div où est</div>
-                        <div class="col-md-4 py-2 border border-dark">inscrit <b>"exercice"</b></div>
+                        <div class="col-5 border border-dark rounded">Comment</div>
+                        <div class="col-2 border border-dark rounded">est</div>
+                        <div class="col-5 border border-dark rounded">ce possible ?</div>
                     </div>
+            </div>
+        </div>
+    </div>
 
-                    <div class="row pb-0">
-                        <div class="col-md-5 py-2 border border-dark">comment</div>
-                        <div class="col-md-2 py-2 border border-dark">est</div>
-                        <div class="col-md-5 py-2 border border-dark">ce possible ?</div>
+
+    <h2>Exercice 3 : changer l'ordre des éléments</h2>
+
+    <div class="container border border-dark rounded bg-mauve">
+        <div class="row justify-content-md-center">
+            <div class="col-justify-content-md-center py-2">12 colonnes</div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-2 offset-md-1 border border-dark rounded">bloc 1 de 2</div>
+            <div class="col-md-2 offset-md-2 border border-dark rounded order-2">bloc 2 de 2</div>
+            <div class="col-md-2 offset-md-2 border border-dark rounded">bloc 3 de 2</div>
+        </div>
+    </div>
+
+    <h2>Exercice 4 : un avant-dernier pour la route</h2>
+
+
+        <div class="container border border-dark rounded text-center bg-mauve">
+                <div class="row">
+                    <div class="col-md-6 border border-dark rounded">6 colonnes
+                            <div class="row">
+                                <div class="col-md-4 border border-dark rounded">4 colonnes</div>
+                                <div class="col-md-4 offset-4 border border-dark rounded ">4 colonnes</div>
+                            </div>
+                    </div>
+                            
+                    <div class="col-md-6 border border-dark rounded">6 colonnes
+                            <div class="row">
+                                <div class="col-md-4 border border-dark rounded">4 colonnes</div>
+                                <div class="col-md-8 border border-dark rounded">8 colonnes</div>
+                            </div>
                     </div>
                 </div>
+        </div>
 
-            </div>
+    <h2>Exercice 5 : réalise un layout responsive.</h2>   
+
+    <div class="container text-center">
+        <div class="row">
+                <div class="col-4  "><p>logo</p></div>
+                <div class="col-8"><p>titre</p></div>
+
+                <div class="col-12"><p>hero</p></div>
+
+                <div class="col-4"><p>zone 1</p></div>
+                <div class="col-4"><p>zone 2</p></div>
+                <div class="col-4"><p>zone 3</p></div>
+
+                <div class="col-6"><p>zone 5</p></div>
+                <div class="col-6"><p>zone 6</p></div>
+
+                <div class="col-12"><p>footer</p></div>
+
+
+
+
+
+        </div>
     </div>
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
